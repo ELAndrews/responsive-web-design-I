@@ -71,6 +71,12 @@ h1 {
 	margin-bottom: 24px;
 }
 
+@media (max-width: 500px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
 h2 {
 	font-size: 16px;
 	text-align: left;
@@ -96,7 +102,7 @@ p {
 
 @media (max-width: 500px) {
     .container {
-        width: 90vw;
+        width: 100vw;
         margin: 0px auto;
         align-content: center;
     }
@@ -134,8 +140,7 @@ nav {
 
 @media (max-width: 500px) {
     nav {
-        width: 90vw;
-        margin: unset;
+        width: 100vw;
         flex-direction: column;
         align-content: center;
         text-align: center;
@@ -176,7 +181,7 @@ nav a {
 
 @media (max-width: 500px) {
     .top-content {
-        margin: unset;
+        margin: 0px;
         width: 85vw;
     }
 }
@@ -187,6 +192,12 @@ nav a {
     text-align: center;
     position: relative;
     bottom: 60px;
+}
+
+@media (max-width: 500px) {
+    .top-content-text {
+        margin-right: 0px;
+    }
 }
 
 .top-content-text a{
@@ -219,7 +230,8 @@ nav a {
 @media (max-width: 500px) {
     .second-content {
         flex-direction: column;
-        width: 85vw;
+        width: 80vw;
+        justify-content: center;
     }
 }
 
@@ -229,7 +241,8 @@ nav a {
 
 @media (max-width: 500px) {
     .features, .about {
-        width: 85vw;
+        width: 70vw;
+        margin: 0px auto;
     }
 }
 
@@ -248,7 +261,7 @@ nav a {
 @media (max-width: 500px) {
     .third-content {
         flex-direction: column;
-        width: 85vw;
+        width: 80vw;
     }
 }
 
@@ -259,7 +272,7 @@ nav a {
 
 @media (max-width: 500px) {
     .services, .product, .vision {
-        width: 85vw;
+        width: 70vw;
         margin: unset;
     }
 }
